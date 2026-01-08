@@ -6,11 +6,9 @@ name: my_first_CICD
 on:
   push:
     branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-
+ 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
